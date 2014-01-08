@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PHP code illustrating how to check the status of a spefici AU in
+ * PHP code illustrating how to check the status of a specific AU in
  * a set of LOCKSS boxes.
  *
  * The IP address of the machine running this script will need to be

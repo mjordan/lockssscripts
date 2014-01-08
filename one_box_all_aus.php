@@ -32,7 +32,8 @@ if (count($aus) === 0) {
   die("No AUs found\n");
 }
 
-// Loop through the list and retrieve info about each one.
+// Loop through the list, retrieve info about each AU,
+// and print it to STDOUT.
 foreach ($aus->return as $au) {
   if (is_object($au)) {
     if (strlen($au->id)) {
